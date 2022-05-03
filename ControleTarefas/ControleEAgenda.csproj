@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\GestãoDeAgendaDominio.csproj" />
+    <ProjectReference Include="..\GestãoAgenda.Infra\GestãoAgenda.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
